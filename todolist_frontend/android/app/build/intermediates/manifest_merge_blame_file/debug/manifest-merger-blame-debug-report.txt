@@ -1,0 +1,157 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.todolist_frontend"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\Users\Administrator\Documents\WeChat Files\wxid_i8rxycvs0l2222\FileStorage\File\2024-03\TodoListMERN\todolist_frontend\android\app\src\main\AndroidManifest.xml:3:5-67
+11-->D:\Users\Administrator\Documents\WeChat Files\wxid_i8rxycvs0l2222\FileStorage\File\2024-03\TodoListMERN\todolist_frontend\android\app\src\main\AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.READ_CONTACTS" />
+12-->D:\Users\Administrator\Documents\WeChat Files\wxid_i8rxycvs0l2222\FileStorage\File\2024-03\TodoListMERN\todolist_frontend\android\app\src\main\AndroidManifest.xml:4:5-71
+12-->D:\Users\Administrator\Documents\WeChat Files\wxid_i8rxycvs0l2222\FileStorage\File\2024-03\TodoListMERN\todolist_frontend\android\app\src\main\AndroidManifest.xml:4:22-69
+13    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+13-->D:\Users\Administrator\Documents\WeChat Files\wxid_i8rxycvs0l2222\FileStorage\File\2024-03\TodoListMERN\todolist_frontend\android\app\src\main\AndroidManifest.xml:5:5-74
+13-->D:\Users\Administrator\Documents\WeChat Files\wxid_i8rxycvs0l2222\FileStorage\File\2024-03\TodoListMERN\todolist_frontend\android\app\src\main\AndroidManifest.xml:5:22-72
+14    <uses-permission android:name="android.permission.BLUETOOTH" />
+14-->D:\Users\Administrator\Documents\WeChat Files\wxid_i8rxycvs0l2222\FileStorage\File\2024-03\TodoListMERN\todolist_frontend\android\app\src\main\AndroidManifest.xml:6:5-67
+14-->D:\Users\Administrator\Documents\WeChat Files\wxid_i8rxycvs0l2222\FileStorage\File\2024-03\TodoListMERN\todolist_frontend\android\app\src\main\AndroidManifest.xml:6:22-65
+15    <uses-permission android:name="android.permission.VIBRATE" />
+15-->D:\Users\Administrator\Documents\WeChat Files\wxid_i8rxycvs0l2222\FileStorage\File\2024-03\TodoListMERN\todolist_frontend\android\app\src\main\AndroidManifest.xml:7:5-65
+15-->D:\Users\Administrator\Documents\WeChat Files\wxid_i8rxycvs0l2222\FileStorage\File\2024-03\TodoListMERN\todolist_frontend\android\app\src\main\AndroidManifest.xml:7:22-63
+16    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+16-->D:\Users\Administrator\Documents\WeChat Files\wxid_i8rxycvs0l2222\FileStorage\File\2024-03\TodoListMERN\todolist_frontend\android\app\src\main\AndroidManifest.xml:8:5-78
+16-->D:\Users\Administrator\Documents\WeChat Files\wxid_i8rxycvs0l2222\FileStorage\File\2024-03\TodoListMERN\todolist_frontend\android\app\src\main\AndroidManifest.xml:8:22-76
+17    <uses-permission android:name="android.permission.USE_EXACT_ALARM" />
+17-->D:\Users\Administrator\Documents\WeChat Files\wxid_i8rxycvs0l2222\FileStorage\File\2024-03\TodoListMERN\todolist_frontend\android\app\src\main\AndroidManifest.xml:9:5-73
+17-->D:\Users\Administrator\Documents\WeChat Files\wxid_i8rxycvs0l2222\FileStorage\File\2024-03\TodoListMERN\todolist_frontend\android\app\src\main\AndroidManifest.xml:9:22-71
+18    <!--
+19    This manifest file is used only by Gradle to configure debug-only capabilities
+20    for React Native Apps.
+21    -->
+22    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+22-->[com.facebook.react:react-android:0.73.6] C:\Users\Administrator\.gradle\caches\transforms-3\e1231b5b187cb579b629117f9511a862\transformed\jetified-react-android-0.73.6-debug\AndroidManifest.xml:16:5-78
+22-->[com.facebook.react:react-android:0.73.6] C:\Users\Administrator\.gradle\caches\transforms-3\e1231b5b187cb579b629117f9511a862\transformed\jetified-react-android-0.73.6-debug\AndroidManifest.xml:16:22-75
+23    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+23-->[com.facebook.flipper:flipper:0.201.0] C:\Users\Administrator\.gradle\caches\transforms-3\9b2c28bd5719adb7e465469e2ca76c12\transformed\jetified-flipper-0.201.0\AndroidManifest.xml:14:5-76
+23-->[com.facebook.flipper:flipper:0.201.0] C:\Users\Administrator\.gradle\caches\transforms-3\9b2c28bd5719adb7e465469e2ca76c12\transformed\jetified-flipper-0.201.0\AndroidManifest.xml:14:22-73
+24    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+24-->[com.google.android.gms:play-services-iid:17.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\7d00a3d973e62c64256363b4cb614082\transformed\jetified-play-services-iid-17.0.0\AndroidManifest.xml:23:5-82
+24-->[com.google.android.gms:play-services-iid:17.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\7d00a3d973e62c64256363b4cb614082\transformed\jetified-play-services-iid-17.0.0\AndroidManifest.xml:23:22-79
+25
+26    <permission
+26-->[androidx.core:core:1.9.0] C:\Users\Administrator\.gradle\caches\transforms-3\13659b94c66de92d98d7f8af61234b95\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+27        android:name="com.todolist_frontend.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+27-->[androidx.core:core:1.9.0] C:\Users\Administrator\.gradle\caches\transforms-3\13659b94c66de92d98d7f8af61234b95\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+28        android:protectionLevel="signature" />
+28-->[androidx.core:core:1.9.0] C:\Users\Administrator\.gradle\caches\transforms-3\13659b94c66de92d98d7f8af61234b95\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+29
+30    <uses-permission android:name="com.todolist_frontend.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+30-->[androidx.core:core:1.9.0] C:\Users\Administrator\.gradle\caches\transforms-3\13659b94c66de92d98d7f8af61234b95\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+30-->[androidx.core:core:1.9.0] C:\Users\Administrator\.gradle\caches\transforms-3\13659b94c66de92d98d7f8af61234b95\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+31    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+31-->[com.android.installreferrer:installreferrer:1.1.2] C:\Users\Administrator\.gradle\caches\transforms-3\7347c325151bfcdf75aa8769efa26987\transformed\jetified-installreferrer-1.1.2\AndroidManifest.xml:9:5-110
+31-->[com.android.installreferrer:installreferrer:1.1.2] C:\Users\Administrator\.gradle\caches\transforms-3\7347c325151bfcdf75aa8769efa26987\transformed\jetified-installreferrer-1.1.2\AndroidManifest.xml:9:22-107
+32
+33    <application
+33-->D:\Users\Administrator\Documents\WeChat Files\wxid_i8rxycvs0l2222\FileStorage\File\2024-03\TodoListMERN\todolist_frontend\android\app\src\main\AndroidManifest.xml:12:5-32:19
+34        android:name="com.todolist_frontend.MainApplication"
+34-->D:\Users\Administrator\Documents\WeChat Files\wxid_i8rxycvs0l2222\FileStorage\File\2024-03\TodoListMERN\todolist_frontend\android\app\src\main\AndroidManifest.xml:13:7-38
+35        android:allowBackup="false"
+35-->D:\Users\Administrator\Documents\WeChat Files\wxid_i8rxycvs0l2222\FileStorage\File\2024-03\TodoListMERN\todolist_frontend\android\app\src\main\AndroidManifest.xml:17:7-34
+36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+36-->[androidx.core:core:1.9.0] C:\Users\Administrator\.gradle\caches\transforms-3\13659b94c66de92d98d7f8af61234b95\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+37        android:debuggable="true"
+38        android:extractNativeLibs="true"
+39        android:icon="@mipmap/ic_launcher"
+39-->D:\Users\Administrator\Documents\WeChat Files\wxid_i8rxycvs0l2222\FileStorage\File\2024-03\TodoListMERN\todolist_frontend\android\app\src\main\AndroidManifest.xml:15:7-41
+40        android:label="@string/app_name"
+40-->D:\Users\Administrator\Documents\WeChat Files\wxid_i8rxycvs0l2222\FileStorage\File\2024-03\TodoListMERN\todolist_frontend\android\app\src\main\AndroidManifest.xml:14:7-39
+41        android:roundIcon="@mipmap/ic_launcher_round"
+41-->D:\Users\Administrator\Documents\WeChat Files\wxid_i8rxycvs0l2222\FileStorage\File\2024-03\TodoListMERN\todolist_frontend\android\app\src\main\AndroidManifest.xml:16:7-52
+42        android:theme="@style/AppTheme"
+42-->D:\Users\Administrator\Documents\WeChat Files\wxid_i8rxycvs0l2222\FileStorage\File\2024-03\TodoListMERN\todolist_frontend\android\app\src\main\AndroidManifest.xml:18:7-38
+43        android:usesCleartextTraffic="true" >
+43-->D:\Users\Administrator\Documents\WeChat Files\wxid_i8rxycvs0l2222\FileStorage\File\2024-03\TodoListMERN\todolist_frontend\android\app\src\debug\AndroidManifest.xml:6:9-44
+44        <activity
+44-->D:\Users\Administrator\Documents\WeChat Files\wxid_i8rxycvs0l2222\FileStorage\File\2024-03\TodoListMERN\todolist_frontend\android\app\src\main\AndroidManifest.xml:19:7-31:18
+45            android:name="com.todolist_frontend.MainActivity"
+45-->D:\Users\Administrator\Documents\WeChat Files\wxid_i8rxycvs0l2222\FileStorage\File\2024-03\TodoListMERN\todolist_frontend\android\app\src\main\AndroidManifest.xml:20:9-37
+46            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+46-->D:\Users\Administrator\Documents\WeChat Files\wxid_i8rxycvs0l2222\FileStorage\File\2024-03\TodoListMERN\todolist_frontend\android\app\src\main\AndroidManifest.xml:22:9-118
+47            android:exported="true"
+47-->D:\Users\Administrator\Documents\WeChat Files\wxid_i8rxycvs0l2222\FileStorage\File\2024-03\TodoListMERN\todolist_frontend\android\app\src\main\AndroidManifest.xml:25:9-32
+48            android:label="@string/app_name"
+48-->D:\Users\Administrator\Documents\WeChat Files\wxid_i8rxycvs0l2222\FileStorage\File\2024-03\TodoListMERN\todolist_frontend\android\app\src\main\AndroidManifest.xml:21:9-41
+49            android:launchMode="singleTask"
+49-->D:\Users\Administrator\Documents\WeChat Files\wxid_i8rxycvs0l2222\FileStorage\File\2024-03\TodoListMERN\todolist_frontend\android\app\src\main\AndroidManifest.xml:23:9-40
+50            android:windowSoftInputMode="adjustResize" >
+50-->D:\Users\Administrator\Documents\WeChat Files\wxid_i8rxycvs0l2222\FileStorage\File\2024-03\TodoListMERN\todolist_frontend\android\app\src\main\AndroidManifest.xml:24:9-51
+51            <intent-filter>
+51-->D:\Users\Administrator\Documents\WeChat Files\wxid_i8rxycvs0l2222\FileStorage\File\2024-03\TodoListMERN\todolist_frontend\android\app\src\main\AndroidManifest.xml:26:9-29:25
+52                <action android:name="android.intent.action.MAIN" />
+52-->D:\Users\Administrator\Documents\WeChat Files\wxid_i8rxycvs0l2222\FileStorage\File\2024-03\TodoListMERN\todolist_frontend\android\app\src\main\AndroidManifest.xml:27:13-65
+52-->D:\Users\Administrator\Documents\WeChat Files\wxid_i8rxycvs0l2222\FileStorage\File\2024-03\TodoListMERN\todolist_frontend\android\app\src\main\AndroidManifest.xml:27:21-62
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->D:\Users\Administrator\Documents\WeChat Files\wxid_i8rxycvs0l2222\FileStorage\File\2024-03\TodoListMERN\todolist_frontend\android\app\src\main\AndroidManifest.xml:28:13-73
+54-->D:\Users\Administrator\Documents\WeChat Files\wxid_i8rxycvs0l2222\FileStorage\File\2024-03\TodoListMERN\todolist_frontend\android\app\src\main\AndroidManifest.xml:28:23-70
+55            </intent-filter>
+56        </activity>
+57        <activity
+57-->[com.facebook.react:react-android:0.73.6] C:\Users\Administrator\.gradle\caches\transforms-3\e1231b5b187cb579b629117f9511a862\transformed\jetified-react-android-0.73.6-debug\AndroidManifest.xml:19:9-21:40
+58            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+58-->[com.facebook.react:react-android:0.73.6] C:\Users\Administrator\.gradle\caches\transforms-3\e1231b5b187cb579b629117f9511a862\transformed\jetified-react-android-0.73.6-debug\AndroidManifest.xml:20:13-77
+59            android:exported="false" />
+59-->[com.facebook.react:react-android:0.73.6] C:\Users\Administrator\.gradle\caches\transforms-3\e1231b5b187cb579b629117f9511a862\transformed\jetified-react-android-0.73.6-debug\AndroidManifest.xml:21:13-37
+60        <activity
+60-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\e853fdf1e0156c040588ca88cd821bd9\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+61            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+61-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\e853fdf1e0156c040588ca88cd821bd9\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+62            android:exported="false"
+62-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\e853fdf1e0156c040588ca88cd821bd9\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+63            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+63-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\e853fdf1e0156c040588ca88cd821bd9\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+64
+65        <meta-data
+65-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\f4982a588457462187a3ce8badf7ea0f\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+66            android:name="com.google.android.gms.version"
+66-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\f4982a588457462187a3ce8badf7ea0f\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+67            android:value="@integer/google_play_services_version" />
+67-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\f4982a588457462187a3ce8badf7ea0f\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+68
+69        <provider
+69-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\faa3592d2fc203d6c74b9a5f601058a1\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+70            android:name="androidx.startup.InitializationProvider"
+70-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\faa3592d2fc203d6c74b9a5f601058a1\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+71            android:authorities="com.todolist_frontend.androidx-startup"
+71-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\faa3592d2fc203d6c74b9a5f601058a1\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+72            android:exported="false" >
+72-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\faa3592d2fc203d6c74b9a5f601058a1\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+73            <meta-data
+73-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\faa3592d2fc203d6c74b9a5f601058a1\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+74                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+74-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\faa3592d2fc203d6c74b9a5f601058a1\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+75                android:value="androidx.startup" />
+75-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\faa3592d2fc203d6c74b9a5f601058a1\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+76            <meta-data
+76-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Administrator\.gradle\caches\transforms-3\71b91ea8216105cda74b0317da307340\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+77                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+77-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Administrator\.gradle\caches\transforms-3\71b91ea8216105cda74b0317da307340\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+78                android:value="androidx.startup" />
+78-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Administrator\.gradle\caches\transforms-3\71b91ea8216105cda74b0317da307340\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+79        </provider>
+80
+81        <meta-data
+81-->[com.facebook.soloader:soloader:0.10.5] C:\Users\Administrator\.gradle\caches\transforms-3\03d018e18e7118763cc731de8f689ba0\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:12:9-14:37
+82            android:name="com.facebook.soloader.enabled"
+82-->[com.facebook.soloader:soloader:0.10.5] C:\Users\Administrator\.gradle\caches\transforms-3\03d018e18e7118763cc731de8f689ba0\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:13:13-57
+83            android:value="false" />
+83-->[com.facebook.soloader:soloader:0.10.5] C:\Users\Administrator\.gradle\caches\transforms-3\03d018e18e7118763cc731de8f689ba0\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:14:13-34
+84    </application>
+85
+86</manifest>
